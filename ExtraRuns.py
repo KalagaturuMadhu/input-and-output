@@ -7,7 +7,7 @@ Second line of the input contain an integer that corresponds to the numbers of w
 Third line of the input contains an integer that corresponds to the number of byes.
 Fourth line of the input contain an integer that corresponds to the numbers of led-byes.
 Fifth line of the input contains an integer that corresponds to the numbers of penalty runs.
-'''
+
 input and output 1:
 4
 7
@@ -21,3 +21,15 @@ input and output 2:
 7
 1
 17
+'''
+program:
+no_balls = int(input())
+wides = int(input())
+byes = int(input())
+leg_byes = int(input())
+penalties = int(input())
+
+total_extras = (no_balls * 1) + (wides * 1) + (byes * 1) + (leg_byes * 1) + (penalties * 5)
+
+print(total_extras)
+
