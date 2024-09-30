@@ -6,7 +6,7 @@ Second line is an integer "Y" in km/litre that specifies the mileage of his frie
 Third line is a float "Z" that specifies the cost of petrol in rupees.
 Output Format:
 Output should display a float that gives the total amount that is needed by Dhoni to spend on his travel in rupees. The float value is displayed correct to 2 decimal places.
-'''
+
 Sample Input and Output 1:
 75
 55
@@ -18,6 +18,7 @@ Sample Input and Output 2:
 65.0
 875.00
 Note: Bold highlighted is the output
+'''
 x=float(input())
 y=float(input())
 z=float(input())
