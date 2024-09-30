@@ -25,3 +25,31 @@ Team 2:
 Name:  Kendriya School
 Score: 110
 Overs played: 18
+program:
+class Team:
+    def __init__(self, name, score, overs):
+        self.name = name
+        self.score = score
+        self.overs = overs
+
+    def display_details(self):
+        print(f"Team Name: {self.name}")
+        print(f"Score: {self.score}")
+        print(f"Overs played: {self.overs}")
+
+def main():
+    # Details for Team 1
+    team1 = Team("DAV Jawahar Vidhya Mandir", 150, 20)
+    
+    # Details for Team 2
+    team2 = Team("Kendriya School", 110, 18)
+    
+    # Displaying match details
+    print("Match Details:")
+    print("Team 1:")
+    team1.display_details()
+    print("Team 2:")
+    team2.display_details()
+
+if __name__ == "__main__":
+    main()
